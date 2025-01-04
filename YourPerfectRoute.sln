@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B172004-F932-4842-9F5F-4B3D487AEA3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourPerfectRoute.Web", "src\YourPerfectRoute.Web\YourPerfectRoute.Web.csproj", "{599233C1-3B93-4ED7-9E96-758C64690B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourPerfectRoute.Domain", "src\YourPerfectRoute.Domain\YourPerfectRoute.Domain.csproj", "{06843300-862A-4411-A8CC-6B16AD3BC36F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{51ADE41A-71C5-4BC6-9282-4BA8D1BF3A5E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AF210E13-8741-4163-B8BB-979E08685046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourPerfectRoute.Tests", "tests\YourPerfectRoute.Tests\YourPerfectRoute.Tests.csproj", "{98F4ADC2-0278-4C2A-8252-A55D403CDEB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{599233C1-3B93-4ED7-9E96-758C64690B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{599233C1-3B93-4ED7-9E96-758C64690B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{599233C1-3B93-4ED7-9E96-758C64690B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{599233C1-3B93-4ED7-9E96-758C64690B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06843300-862A-4411-A8CC-6B16AD3BC36F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06843300-862A-4411-A8CC-6B16AD3BC36F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06843300-862A-4411-A8CC-6B16AD3BC36F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06843300-862A-4411-A8CC-6B16AD3BC36F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98F4ADC2-0278-4C2A-8252-A55D403CDEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F4ADC2-0278-4C2A-8252-A55D403CDEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F4ADC2-0278-4C2A-8252-A55D403CDEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F4ADC2-0278-4C2A-8252-A55D403CDEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{599233C1-3B93-4ED7-9E96-758C64690B87} = {6B172004-F932-4842-9F5F-4B3D487AEA3E}
+		{06843300-862A-4411-A8CC-6B16AD3BC36F} = {6B172004-F932-4842-9F5F-4B3D487AEA3E}
+		{98F4ADC2-0278-4C2A-8252-A55D403CDEB5} = {AF210E13-8741-4163-B8BB-979E08685046}
+	EndGlobalSection
+EndGlobal
